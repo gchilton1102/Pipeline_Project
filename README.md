@@ -1,11 +1,11 @@
-## Pipeline Project
+# Pipeline Project
 
 This pipeline is structured to compare HCMV transcriptomes 2 and 6 days post infection (dpi)
 
-# You will need the following dependencies:
+## You will need the following dependencies:
 List all of the dependencies
 
-# Step One: Retrieve transcriptomes from patients infected with HCMV 2 and 6 days post infection from SRA
+### Step One: Retrieve transcriptomes from patients infected with HCMV 2 and 6 days post infection from SRA
 
 Run the following commands to download the transcriptome SRA files from each Donor to your machine/server:
 
