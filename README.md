@@ -55,4 +55,4 @@ When testing with the sample data, include the full path to the sample data afte
 
 The following is the command to run with the sample data, make sure you are working in the Pipeline_Project directory:
 
-python3 wrapper.py sample_data/
+python3 wrapper.py -i sample_data/
