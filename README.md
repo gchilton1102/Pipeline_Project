@@ -24,3 +24,18 @@ fastq-dump -I --split_files SRR5660033
 fastq-dump -I --split_files SRR566004
 
 fastq-dump -I --split_files SRR5660045
+
+## Step Two: Run the wrapper.py script on the command line to assemble the genome
+
+Run the following on the command line:
+
+python3 wrapper.py -i ~/path_to_transcriptome_fastqs
+
+Substitue "path_to_transcriptome_fastqs" with the full filepath to the transcriptome fastq files downloaded in the previous step
+
+## Testing Pipeline with Sample Data
+
+Sample data for this pipeline is included in the sample_data directory included in this GitHub repository
+
+When testing with the sample data, include the full path to the sample data after the -i flag
+
