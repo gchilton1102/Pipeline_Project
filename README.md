@@ -4,10 +4,15 @@ This pipeline is structured to compare HCMV transcriptomes 2 and 6 days post inf
 ## Getting Started
 ### You will need the following dependencies:
 argparse
+
 sys
+
 os
+
 subprocess
+
 glob
+
 - Separate installations, run the following on the command line:
 pip install biopython
 
