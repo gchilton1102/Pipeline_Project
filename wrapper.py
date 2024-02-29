@@ -23,7 +23,7 @@ inpath = args.input
 ## Step 2: Build Index ##
 def build_index(inpath):
     cwd = os.getcwd() # save the current working directory
-    os.system("rm Pipeline_Project.log") # remove .log file from original data
+    os.system("rm PipelineProject.log") # remove .log file from original data
     os.system("mkdir index_dir") # make directory to store HCMV index
     os.chdir("index_dir") # change to directory to store HCMV index
     # Create index for HCMV
