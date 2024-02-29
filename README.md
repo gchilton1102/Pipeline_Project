@@ -49,10 +49,10 @@ This pipeline is structured to compare HCMV transcriptomes 2 and 6 days post inf
 
 ## Testing Pipeline with Sample Data
 
-    Sample data for this pipeline is included in the sample_data directory included in this GitHub repository
+Sample data for this pipeline is included in the sample_data directory included in this GitHub repository
 
-    When testing with the sample data, include the full path to the sample data after the -i flag
+When testing with the sample data, include the full path to the sample data after the -i flag
 
-    The following is an example command to run with the sample data:
+The following is an example command to run with the sample data:
 
-    python3 wrapper.py ~/sample_data/
+python3 wrapper.py ~/sample_data/
