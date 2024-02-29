@@ -1,5 +1,5 @@
 # Pipeline Project
-This pipeline is structured to compare HCMV transcriptomes 2 and 6 days post infection (dpi)
+This pipeline is structured to compare HCMV transcriptomes 2 and 6 days post infection (dpi) and assemble the genome based on the given transcriptomes.
 
 ## Getting Started
 ### You will need the following dependencies:
