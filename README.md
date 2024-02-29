@@ -57,6 +57,6 @@ Sample data for this pipeline is included in the sample_data directory included 
 
 When testing with the sample data, include the sample data after the -i flag
 
-The following is the command to run with the sample data, make sure you are working in the Pipeline_Project directory:
+The following is the command to run with the sample data on the command line, make sure you are working in the Pipeline_Project directory:
 
 python3 wrapper.py -i sample_data/
