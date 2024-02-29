@@ -3,6 +3,10 @@ This is a python-based pipeline that is structured to compare HCMV transcriptome
 
 ## Getting Started
 
+- To clone this directory, run the following on the command line:
+
+    git clone https://github.com/gchilton1102/Pipeline_Project_Grace_Chilton.git
+
 - If you do not already have Python installed, follow the instructions on this page: https://www.python.org/downloads/
 
 ### You will need the following dependencies:
@@ -45,7 +49,7 @@ This is a python-based pipeline that is structured to compare HCMV transcriptome
 
     fastq-dump -I --split_files SRR5660045
 
-- Move all fastq files to the Pipeline_Project directory created with the git clone command
+- Move all fastq files to the Pipeline_Project_Grace_Chilton directory, created with the git clone command
 
 ## Running the wrapper script
 
@@ -55,7 +59,7 @@ This is a python-based pipeline that is structured to compare HCMV transcriptome
 
 - Substitue "name_of_transcriptome_folder" with the full filepath to the transcriptome fastq files downloaded in the previous step
 
-- Make sure your fastq files are within the Pipeline_Project directory
+- Make sure your fastq files are within the Pipeline_Project_Grace_Chilton directory
 
 ## Testing Pipeline with Sample Data
 
@@ -63,6 +67,7 @@ Sample data for this pipeline is included in the sample_data directory included 
 
 When testing with the sample data, include the sample data after the -i flag
 
-The following is the command to run with the sample data on the command line, make sure you are working in the Pipeline_Project directory:
+The following is the command to run with the sample data on the command line, make sure you are working in the Pipeline_Project_Grace_Chilton directory:
 
 python3 wrapper.py -i sample_data/
+
