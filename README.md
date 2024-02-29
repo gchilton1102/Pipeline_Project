@@ -5,7 +5,7 @@ This is a python-based pipeline that is structured to compare HCMV transcriptome
 
 - To clone this directory, run the following on the command line:
 
-    git clone https://github.com/gchilton1102/Pipeline_Project_Grace_Chilton.git
+    `git clone https://github.com/gchilton1102/Pipeline_Project_Grace_Chilton.git`
 
 - If you do not already have Python installed, follow the instructions on this page: https://www.python.org/downloads/
 
