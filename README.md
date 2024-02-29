@@ -1,8 +1,13 @@
 # Pipeline Project
-This pipeline is structured to compare HCMV transcriptomes 2 and 6 days post infection (dpi) and assemble the genome based on the given transcriptomes.
+This is a python-based pipeline that is structured to compare HCMV transcriptomes 2 and 6 days post infection (dpi) and assemble the genome based on the given transcriptomes.
 
 ## Getting Started
 ### You will need the following dependencies:
+
+    If you do not already have Python installed, follow the instructions on this page: https://www.python.org/downloads/
+
+- The following libraries are part of the standard library of python version 2.7 or later:
+
     argparse
 
     sys
