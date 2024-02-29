@@ -39,19 +39,23 @@ This pipeline is structured to compare HCMV transcriptomes 2 and 6 days post inf
 
     fastq-dump -I --split_files SRR5660045
 
+- Move all fastq files to the Pipeline_Project directory created with the git clone command
+
 ## Running the wrapper script
 
 - Run the following on the command line:
 
-    python3 wrapper.py -i ~/path_to_transcriptome_fastqs
+    python3 wrapper.py -i name_of_transcriptome_folder/
 
-- Substitue "path_to_transcriptome_fastqs" with the full filepath to the transcriptome fastq files downloaded in the previous step
+- Substitue "name_of_transcriptome_folder" with the full filepath to the transcriptome fastq files downloaded in the previous step
+
+- Make sure your fastq files are within the Pipeline_Project directory
 
 ## Testing Pipeline with Sample Data
 
 Sample data for this pipeline is included in the sample_data directory included in this GitHub repository
 
-When testing with the sample data, include the full path to the sample data after the -i flag
+When testing with the sample data, include the sample data after the -i flag
 
 The following is the command to run with the sample data, make sure you are working in the Pipeline_Project directory:
 
