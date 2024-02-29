@@ -17,7 +17,7 @@ This pipeline is structured to compare HCMV transcriptomes 2 and 6 days post inf
 
     pip install biopython
 
-- Retrieve transcriptomes from patients infected with HCMV 2 and 6 days post infection from SRA
+### Retrieve transcriptomes from patients infected with HCMV 2 and 6 days post infection from SRA
 
 - Run the following commands to download the transcriptome SRA files from each Donor to your machine/server:
 
@@ -53,6 +53,6 @@ Sample data for this pipeline is included in the sample_data directory included 
 
 When testing with the sample data, include the full path to the sample data after the -i flag
 
-The following is an example command to run with the sample data:
+The following is the command to run with the sample data, make sure you are working in the Pipeline_Project directory:
 
-python3 wrapper.py ~/sample_data/
+python3 wrapper.py sample_data/
