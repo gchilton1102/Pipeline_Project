@@ -14,6 +14,7 @@ subprocess
 glob
 
 - Separate installations, run the following on the command line:
+
 pip install biopython
 
 - Retrieve transcriptomes from patients infected with HCMV 2 and 6 days post infection from SRA
